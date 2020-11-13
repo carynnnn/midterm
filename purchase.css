@@ -1,0 +1,169 @@
+body
+{
+    width: 1920px;
+    height: 1080px;
+}
+.header 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    width: 1920px;
+    height: 100px;
+    background-color: #F5F5F5;
+    font-family: 'Franklin Gothic Book', 'Italic', Arial, sans-serif;
+}
+.header a{
+    color: gray;
+    border-bottom: 0;
+    text-decoration: none;
+}
+.logo
+{
+    width: 219px;
+    height: 54px;
+}
+.header ul a
+{
+    padding: 0 50px;
+}
+.border_left
+{
+    border-left: 2px gray solid;
+}
+.search
+{
+    display: flex;
+    
+}
+.small_logo
+{
+    width: 23px;
+    height: 21px;
+    margin: auto 0;
+    margin-left: 5px;
+}
+.small_logo_side
+{
+    width: 20px;
+    height: 28px;
+    margin: auto 0;
+    margin-left: 30px;
+}
+.header input
+{
+    width: 300px;
+    height: 33px;
+    border: 0.5px black solid;
+    background-color: #F5F5F5;
+}
+.centre
+{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.product_pic
+{
+    width: 920px;
+    height: 926px;
+
+   
+}
+.toppic img
+{
+    width: 612px;
+    height: 612px;
+}
+.article
+{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    
+}
+.prduct img
+{
+    width: 196px;
+    height: 196px;
+    margin-right: 12px;
+    margin-top: 10px;
+}
+.row
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Book', 'Regular', Arial, sans-serif;
+    font-size: 22px;
+}
+.details h1
+{
+   display: flex; 
+   align-content: center;
+   font-size: 45px;
+    font-family: 'Franklin Gothic Book', 'Regular', Arial, sans-serif;
+    margin-top: 0;
+    color: #5A5B5E;
+}
+.details p
+{
+    font-size: 30px;
+    color: #B2B3B7;
+    padding-bottom: 50px;
+    border-bottom: 1px black solid;
+}
+.w p
+{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Book', 'Regular', Arial, sans-serif;
+    color:#B2B3B7;
+}
+.aaa p
+{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Book', 'Regular', Arial, sans-serif;
+    color: #5A5B5E;
+}
+.add
+{
+    margin-top: 80px;
+    text-align: center;
+    width: 472px;
+    height:61px;
+    background-color: #EBE7DE;
+}
+.or
+{
+    margin-left: 215px;
+}
+.buy
+{
+
+    text-align: center;
+    width: 472px;
+    height:61px;
+    background-color:#EBE7DE;
+}
+.footer
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    width: 1920px;
+    height:64px;
+    background-color: #F5F5F5;
+    
+}
+.footer p
+{
+    padding-left: 860px;
+    font-size: 22px;
+    color: #B2B3B7;
+    font-family: 'Franklin Gothic Book', 'Regular', Arial, sans-serif;
+}
+
+

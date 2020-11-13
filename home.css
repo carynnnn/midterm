@@ -1,0 +1,85 @@
+body
+{
+    width: 1920px;
+    height: 1080px;
+}
+.header 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    width: 1920px;
+    height: 100px;
+    background-color: #F5F5F5;
+    font-family: 'Franklin Gothic Book', 'Italic', Arial, sans-serif;
+}
+.header a{
+    color: gray;
+    border-bottom: 0;
+    text-decoration: none;
+}
+.logo
+{
+    width: 219px;
+    height: 54px;
+}
+.header ul a
+{
+    padding: 0 50px;
+}
+.border_left
+{
+    border-left: 2px gray solid;
+}
+.search
+{
+    display: flex;
+    
+}
+.small_logo
+{
+    width: 23px;
+    height: 21px;
+    margin: auto 0;
+    margin-left: 5px;
+}
+.small_logo_side
+{
+    width: 20px;
+    height: 28px;
+    margin: auto 0;
+    margin-left: 30px;
+}
+.header input
+{
+    width: 300px;
+    height: 33px;
+    border: 0.5px black solid;
+    background-color: #F5F5F5;
+}
+.titlepic img
+{
+    width: 1920px;
+    height: 885px;
+}
+
+.footer
+{
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-end;
+    width: 1920px;
+    height:64px;
+    background-color: #F5F5F5;
+}
+.footer p
+{
+    padding-left: 860px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #B2B3B7;
+    font-family: 'Franklin Gothic Book', 'Regular', Arial, sans-serif;
+}
